@@ -1,0 +1,116 @@
+@font-face{
+	font-family:"yekan";
+	font-style: normal;
+	font-weight: normal;
+	src:url('../fonts/Yekan/Yekan.eot') format("embedded-opentype"),
+	url('../fonts/Yekan/Yekan.woff') format("woff"),
+	url('../fonts/Yekan/Yekan.ttf') format("truetype");
+}
+
+
+
+.clock{
+    padding-top: 0.2em !important;
+    padding-right: 0.3em !important;
+    padding-bottom: 0.3em !important;
+    padding-left: 0.3em !important;
+    margin-left:0.05em;
+    margin-right:0.05em;
+    background-color:#141414;
+}
+.div-clock{
+    font-size:larger;
+    margin-top: 8px;
+}
+#fixed_top_navbar{
+    height:43px;
+    min-height:43px;
+}
+.sign-in{
+    text-align:center;
+    margin-top:7px;
+    margin-bottom:7px;
+}
+.sign-in a{
+    color:#9c9c9c;
+    /*font-size:smaller;*/
+    text-decoration:none;
+
+    padding-right:0.2em;
+    padding-left:0.2em;
+    padding-top:0.1em;
+    padding-bottom:0.1em;
+
+    margin-top:2px;
+}
+.sign-in a:hover{
+    color:#808080;
+    font-size:smaller;
+    text-decoration:none;
+}
+header .brand{
+    text-align:left !important;
+}
+header .brand .col-sm-3 , header .brand .col-xs-3{
+    padding-right:2px;
+    padding-left:2px;
+}
+.secondheader .navbar-default {
+    margin-top:7px !important;
+    margin-bottom:3px !important;
+    background-color:#fdfdfd;
+    border-width:2px;
+    border-style:outset;
+    min-height:41px !important; 
+}
+
+#btn_header_search{
+    font-size:14px;
+    padding-left:3px;
+    padding-right:3px;
+    width:100%;
+}
+#txt_header_search{
+    font-size:14px;
+    margin-top:1px;
+}
+#header2_dropdown{
+    font-size:14px;
+    margin-top:2px;
+}
+.inline .col-lg-2,.inline .col-lg-8,.inline .col-md-2,.inline .col-md-8,.inline .col-sm-2,.inline .col-sm-8,.inline .col-xs-2,.inline .col-xs-8 {
+    padding-right:1px;
+    padding-left:1px;
+}
+.inline .col-xs-6{
+    padding-right:1px;
+    padding-left:1px;
+}
+.btn_home{
+    background-color: #fdfdfd;
+    border: none;
+    font-size:14px;
+    margin-top:7px;
+    vertical-align:central;
+}
+.btn_home:hover{
+    color:black;
+    font-size:smaller;
+    text-decoration:none;
+}
+#navbar_menu .dropdown-menu{
+    background-color:#ffffff !important;
+}
+/*#body_container{
+    padding:0px;
+}
+.secondheader .container{
+    padding:0px;
+}*/
+
+
+
+
+
+
+

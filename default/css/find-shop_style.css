@@ -1,0 +1,14 @@
+﻿.shop-list{
+    background-color:#f9ffff;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.item-border {
+    padding: 10px;
+    border: ridge;
+    border-color: rgb(236, 249, 205);
+
+}

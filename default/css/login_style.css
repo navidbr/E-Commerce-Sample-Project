@@ -1,0 +1,93 @@
+﻿
+/*------------------------------------- Matin register ---------------------------------------*/
+
+.icon_user_signup{
+    height: 270px;
+    background-position-x: -871px;
+    background-position-y: -90px;
+    text-align: center; 
+    margin:auto;
+    background-color:#ddf0f5
+    
+}
+.login_icon{
+   
+    background-position: initial;
+    height:166px;
+    width:166px;
+    padding-top:15px;
+    background-image:url('../img/login_btn.png') ;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    display: inline-block;
+    position: relative;
+    margin-top:20px;
+}
+.login_userbox{
+       text-align: right;
+       margin-top:10px;
+       margin-left:auto;
+       margin-right:auto;
+       margin-bottom:10px;
+       width:80%;
+}
+.login_user_color{
+    background-color:#ddfcfc;
+}
+.sizing {
+       margin-left:10px;
+       margin-right:10px;
+       margin-bottom:10px;
+       margin-top:10px;
+       padding:7px;
+       text-align:center;
+}
+.padding{
+    padding:7px;
+    text-align: center;
+}
+.login_btn_margin{
+    margin-left:10px;
+}
+.erromsg{
+    clear:right;
+    color:orangered;
+    text-align:right;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 10px;
+    font:bold;
+    line-height: normal;
+    font-family: Tahoma; 
+}
+.put_in_center{
+    text-align:center;
+}
+.animation{
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 2s;
+    -webkit-animation-duration: 1s;
+    visibility: visible; 
+}
+.font_tahoma{
+    font-family:Tahoma;
+}
+.font_Comic{
+    font-family:Comic Sans MS;
+}
+.font_Georgia{
+    font-family:Georgia;
+}
+.font_Bkoodak{
+    font-family:'B Koodak';
+}
+/*----------------------------------------------------------------------------*/
+

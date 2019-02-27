@@ -1,0 +1,169 @@
+﻿.mainpage_firstline_set{
+    background:rgba(245, 245, 245, 0.21);
+    margin-bottom:8px;
+    margin-left:2px;
+    margin-right:2px;
+}
+.home_document{
+   margin:2px 17px 0px 17px;
+   background-color:rgba(0, 251, 190, 0.36);
+}
+.top_font_padding{
+    padding:2px 1px 2px 1px;
+    font-family:'Adobe Arabic' !important;
+    font-size:25px;
+    font-stretch:extra-expanded;
+
+}
+.row_background_home{
+    background-color:rgba(138, 239, 239, 0.24);
+}
+.clothe_document{
+   margin:2px 17px 0px 17px;
+   background-color:rgba(66, 255, 0, 0.53);
+}
+.row_background_clothe{
+    background-color:rgba(6, 255, 11, 0.09);
+}
+.post-slide{
+    background: #fff;
+    border-bottom: 1px solid #dedde1;
+}
+.post-slide .pic{
+    overflow: hidden;
+    position: relative;
+}
+.post-slide .pic img{
+    height: auto;
+    transform: rotate(0deg) scale(1,1);
+    transition: all 0.9s ease 0s;
+}
+.post-slide:hover img{
+    transform: rotate(-2deg) scale(1.1,1.1);
+}
+.post-slide .pic:after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0);
+    transition: all 0.9s ease 0s;
+ 
+}
+.post-slide:hover .pic:after{
+    background: rgba(255,255,255,0.2);
+}
+.navigation_obj_width{
+    width:100% !important;
+    display: table-cell;
+}
+.row_background_sismoni{
+    background-color:rgba(255, 0, 0, 0.05);
+}
+.sismoni_document{
+    margin:2px 17px 0px 17px;
+    background-color:rgba(255, 7, 102, 0.64);
+}
+.new_slider_obj_color{
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    background-color: #eee;
+    color: #000000;
+}
+.row_background_car{
+    background-color:rgba(0, 66, 76, 0.15);
+}
+.car_document{
+    margin:2px 17px 0px 17px;
+    background-color:rgba(16, 142, 160, 0.41);
+}
+.glyphicon-chevron_color_electronic{
+    color:rgba(0, 255, 245, 0.41);
+}
+.glyphicon-chevron_color_clothe{
+    color:rgba(76, 230, 0, 0.71);
+}
+.glyphicon-chevron_color_sismoni{
+    color:rgba(253, 7, 141, 0.69);
+}
+.glyphicon-chevron_color_car{
+    color:#00609a;
+}
+.row_background_learn{
+    background-color:rgba(255, 221, 4, 0.19);
+}
+.learn_document{
+    margin:2px 5px 0px 5px;
+    background-color:rgba(253, 208, 4, 0.58);
+}
+.row_background_furniture{
+    background-color:rgba(255, 4, 250, 0.14);
+}
+.furniture_document{
+    margin:2px 17px 0px 17px;
+    background-color:rgba(199, 1, 141, 0.45);
+}
+.glyphicon-chevron_color_furniture{
+    color:#960175;
+}
+.row_background_lux{
+    background-color:rgba(255, 162, 0, 0.14);
+}
+.lux_document{
+    margin:2px 17px 0px 17px;
+    background-color:rgba(255, 139, 1, 0.6);
+}
+.glyphicon-chevron_color_lux{
+    color:#ff9c03
+}
+.row_background_camera{
+    background-color:rgba(162, 106, 7, 0.48);
+}
+.icon_user_signup{
+    height: 270px;
+    background-position-x: -871px;
+    background-position-y: -90px;
+    text-align: center; 
+    margin:auto;
+    background-color:#ddf0f5
+    
+}
+.signup_first_picture{
+    height:2960px !important;
+}
+.login_icon{
+   
+    background-position: initial;
+    height:166px;
+    width:166px;
+    padding-top:15px;
+    background-image:url('../img/login_btn.png') ;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    display: inline-block;
+    position: relative;
+    margin-top:20px;
+
+}
+.font_tahoma{
+    font-family:Tahoma;
+}
+.font_Comic{
+    font-family:Comic Sans MS;
+}
+.font_Georgia{
+    font-family:Georgia;
+}
+.mainpage_font_Adobe_Arabic{
+    font-family:'Adobe Arabic';
+}
+.mainpage_font_Gill_Sans{
+    font-family:'Gill Sans';
+}

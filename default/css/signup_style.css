@@ -1,0 +1,72 @@
+﻿
+/*------------------------------------- Matin sign up ---------------------------------------*/
+
+#success_message{ display: none;}
+.signup_background_color{
+    background-color:#91ddf0;
+}
+.radio_checkbox_margin{
+    margin-left:4px !important;
+}
+.signup_first_picture{
+    height:745px !important;
+}
+.signup_input_margin{
+    margin:1px 40px 1px 40px;
+}
+.signup_cloud_set{
+    top:5px;
+    color:#ec4608;
+    margin:2px;
+}
+.put_in_center{
+    text-align:center;
+}
+.font_tahoma{
+    font-family:Tahoma;
+}
+.font_Comic{
+    font-family:Comic Sans MS;
+}
+.font_Georgia{
+    font-family:Georgia;
+}
+.icon_user_signup{
+    height: 270px;
+    background-position-x: -871px;
+    background-position-y: -90px;
+    text-align: center; 
+    margin:auto;
+    background-color:#ddf0f5
+}
+.login_icon{
+   
+    background-position: initial;
+    height:166px;
+    width:166px;
+    padding-top:15px;
+    background-image:url('../img/login_btn.png') ;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    display: inline-block;
+    position: relative;
+    margin-top:20px;
+}
+.login_userbox{
+       text-align: right;
+       margin-top:10px;
+       margin-left:auto;
+       margin-right:auto;
+       margin-bottom:10px;
+       width:80%;
+}
+.login_user_color{
+    background-color:#ddfcfc;
+}
+.font_Bkoodak{
+    font-family:'B Koodak';
+    font-size:medium;
+}

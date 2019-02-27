@@ -1,0 +1,189 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Header_MasterPage.master.cs" Inherits="Header_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>OfferEshop</title>
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+    <meta name="viewport" content="width=device.width , initial-scale=1" />
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+
+
+
+
+    <link rel="stylesheet" href="default/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="default/css/bootstrap-rtl.min.css"/>
+    <link rel="stylesheet" href="default/css/style.css"/>
+    <script src="default/jquery/jquery-3.1.1.min.js"></script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" id="fixed_top_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div class="div-clock">
+                            <span id="lbl-hour-1" class="label label-default clock">0</span><span id="lbl-hour-0" class="label label-default clock">9</span>:<span id="lbl-min-1" class="label label-default clock">0</span><span id="lbl-min-0" class="label label-default clock">1</span>:<span id="lbl-sec-1" class="label label-default clock">2</span><span id="lbl-sec-0" class="label label-default clock">1</span>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <img class="img-responsive img-thumbnail" src="default/img/site_brand.png" alt="site brand" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br />
+        <br />
+        <div class="secondheader">
+            <nav class="container">
+                <div class="row">
+                    <div class="navbar navbar-default navbar-static-top">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="inline">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                                                <button id="btn_header_search" class="btn btn-success " type="submit" runat="server" onserverclick="search_click">جستجو</button>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-5 col-xs-8">
+                                                <input type="text" class="form-control" id="txt_header_search" placeholder="search" runat="server"/>
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                                                <select class="form-control" id="search_about_dropdown" runat="server">
+                                                    <option>کالا</option>
+                                                    <option>فروشگاه</option>
+                                                    <option>فروشنده</option>
+                                                </select>
+                                                <%--<button class="btn btn-default dropdown-toggle" type="button" id="search_about_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                    جستجو در باره ی
+                                                    <span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="font-size:14px;">
+                                                    <li>درباره 1</li>
+                                                    <li>درباره 2</li>
+                                                    <li>درباره 3</li>
+                                                    <li>درباره 4</li>
+                                                </ul>--%>
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                        <select class="form-control" id="province_dropdown" runat="server">
+                                                            <option>آذربایجان غربی</option>
+                                                            <option>آذربایجان شرقی</option>
+                                                            <option>اردبیل</option>
+                                                            <option>تهران</option>
+                                                        </select>
+                                                        <%--<button class="btn btn-default dropdown-toggle" type="button" id="province_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                            استان
+                                                            <span class="caret"></span>
+                                                        </button>
+                                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="font-size:14px;">
+                                                            <li>استان 1</li>
+                                                            <li>استان 2</li>
+                                                            <li>استان 3</li>
+                                                            <li>استان 4</li>
+                                                        </ul>--%>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                        <select class="form-control" id="city_dropdown" runat="server">
+                                                            <option>ارومیه</option>
+                                                            <option>مهاباد</option>
+                                                            <option>ماکو</option>
+                                                            <option>میاندواب</option>
+                                                        </select>
+
+                                                    </div>
+                                            </div>
+
+
+                                            
+
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                                <div class="sign-in">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                            <a href="sign_up.aspx"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> ایجاد نام کاربری </a>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                            <a href="login.aspx"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span>  ورود به سایت </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                                                <button type="button" class="btn_home" onclick="window.location='default.aspx'">
+                                                <span class="glyphicon glyphicon-home" aria-hidden="true"></span> صفحه اصلی </button>
+                                            </div>
+
+                                        </div> 
+                                    </div> 
+                                </div>
+                                
+                    </div>    
+                </div>
+            </nav>
+        </div>
+            
+    </header>
+    <div class="container">
+        <div class="">
+        <nav class="navbar navbar-default navbar-menu">
+  <div class="">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Menu</a>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="navbar_menu">
+      <ul class="nav navbar-nav" id="main_menu_ul" runat="server">
+        <%--<li >
+            <a href="#" role="button">sdfghjkl;</a>
+        </li>--%>
+          <%--main menu li --%>
+
+      </ul>
+    </div>
+
+    </div>
+    </nav>
+        </div>
+    </div>
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+    
+
+
+
+    <script src="default/js/bootstrap.min.js"></script>
+
+</body>
+</html>
